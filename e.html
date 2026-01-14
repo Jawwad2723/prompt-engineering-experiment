@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawwad Hassan - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            padding: 40px;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            @page {
+                margin: 0.5in;
+            }
+        }
+        
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            font-size: 11px;
+            margin-top: 5px;
+        }
+        
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1.5px solid #000;
+            margin-bottom: 8px;
+            padding-bottom: 2px;
+        }
+        
+        .objective {
+            font-size: 11px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        
+        .project {
+            margin-bottom: 12px;
+        }
+        
+        .project-title {
+            font-size: 11.5px;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .project ul {
+            margin-left: 20px;
+            font-size: 11px;
+        }
+        
+        .project li {
+            margin-bottom: 2px;
+            line-height: 1.4;
+        }
+        
+        .skills-grid {
+            font-size: 11px;
+            line-height: 1.6;
+        }
+        
+        .skill-row {
+            margin-bottom: 4px;
+        }
+        
+        .skill-label {
+            font-weight: bold;
+            display: inline-block;
+            width: 200px;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 10px;
+            font-size: 11px;
+        }
+        
+        .edu-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+        
+        .edu-details {
+            font-size: 11px;
+            margin-bottom: 2px;
+        }
+        
+        .experience-title {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .experience-item ul {
+            margin-left: 20px;
+            margin-top: 3px;
+        }
+        
+        .experience-item li {
+            margin-bottom: 2px;
+            line-height: 1.4;
+        }
+        
+        .certifications ul, .soft-skills {
+            font-size: 11px;
+            margin-left: 20px;
+        }
+        
+        .certifications li {
+            margin-bottom: 3px;
+        }
+        
+        .soft-skills {
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Jawwad Hassan</h1>
+        <div class="contact-info">
+            <a href="mailto:jawwadhassan76@gmail.com">jawwadhassan76@gmail.com</a> • 
+            <a href="tel:+923462767352">+923462767352</a> • Islamabad<br>
+            <a href="https://linkedin.com/in/jawwad-hassan-692207180" target="_blank">linkedin.com/in/jawwad-hassan-692207180</a> • 
+            <a href="https://github.com/Jawwad2723" target="_blank">github.com/Jawwad2723</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Objective</div>
+        <p class="objective">
+            Python Developer with strong expertise in building AI-driven backend services, API development, and data processing pipelines. Experienced in designing and deploying production-ready systems using FastAPI, PostgreSQL, Redis, and Docker. Skilled in integrating AI/ML services (OpenAI, Whisper, ElevenLabs, Ollama) with real-time communication protocols and distributed systems. Proven track record of optimizing response times, prompt engineering, and full-stack system architecture. Passionate about building scalable, intelligent applications from concept to cloud deployment.
+        </p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Experience</div>
+        
+        <div class="experience-item">
+            <div class="experience-title">AI/ML Engineer – Sterlings Tech, Islamabad | Present</div>
+            <ul>
+                <li>Designed and developed end-to-end AI-powered Call Bot system handling 5 concurrent calls with 2-3 seconds latency using Python and FastAPI.</li>
+                <li>Integrated multiple AI services: OpenAI, Deepseek, Ollama 3 for language understanding; Whisper for speech-to-text; ElevenLabs for text-to-speech synthesis.</li>
+                <li>Architected real-time audio processing pipeline using WebSockets, Audio Socket, and RTP protocol for seamless voice communication.</li>
+                <li>Implemented telephony infrastructure with Asterisk and Vicidial NonAgentAPI for call management and routing.</li>
+                <li>Built n8n workflow automation for orchestrating AI services and call flows with advanced prompt engineering techniques.</li>
+                <li>Managed PostgreSQL and Redis databases for efficient data storage, caching, and session management.</li>
+                <li>Containerized entire application stack using Docker for consistent deployment across environments.</li>
+                <li>Deployed project on cloud GPU servers with CUDA 12 for optimized AI model inference and response times.</li>
+                <li>Developed Node.js-based UI for system monitoring and configuration management.</li>
+                <li>Maintained comprehensive Git version control with collaborative development workflows and code reviews.</li>
+                <li>Optimized system performance achieving sub-3-second response times through efficient API design and caching strategies.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="experience-title">NBP FUND PVT Ltd, Information Security Intern | Feb 24 – March 24</div>
+            <ul>
+                <li>Vulnerability & Penetration testing, successfully bypassed bank OTP verification system on live network. Network vulnerability assessment with Nessus.</li>
+                <li>Used tools like John The Ripper, Wireshark, sqlmap, Nmap, Metasploit, and Aircrack-ng in Kali Linux for pen testing.</li>
+                <li>Successfully exploited SQL Injection vulnerabilities on platforms like DVWA, TryHackMe, and PortSwigger Web Security Academy to retrieve sensitive data from simulated vulnerable databases.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-row">
+                <span class="skill-label">Programming Languages:</span>
+                Python (Advanced), JavaScript/Node.js, TypeScript
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Backend & APIs:</span>
+                FastAPI, Flask, REST APIs, WebSockets, Audio Socket, RTP Protocol
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Databases:</span>
+                PostgreSQL, Redis, MongoDB, MySQL
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">AI/ML Services:</span>
+                OpenAI, Deepseek, Ollama, Whisper, ElevenLabs, Gemini, Hugging Face, RAG, Prompt Engineering
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">ML Frameworks:</span>
+                PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, BERT, Transformers
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">DevOps & Deployment:</span>
+                Docker, Git, GitHub, Cloud GPU Deployment, CUDA 12, CI/CD
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Telephony & Voice:</span>
+                Asterisk, Vicidial NonAgentAPI, Real-time Audio Processing, Speech-to-Text, Text-to-Speech
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Workflow Automation:</span>
+                n8n, LangChain, Supabase
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Other Tools:</span>
+                Streamlit, BLEU/ROUGE metrics, LoRA, QLoRA, PEFT, Fine-tuning
+            </div>
+            <div class="skill-row">
+                <span class="skill-label">Development Practices:</span>
+                Collaborative workflows, Code reviews, Performance optimization, Debugging, System architecture design
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div class="project">
+            <div class="project-title">Mini LLM Fine-Tuning for Instruction Tasks</div>
+            <ul>
+                <li>Fine-tuned a small open-source language model on a custom instruction dataset to improve response relevance.</li>
+                <li>Curated and preprocessed dataset, applied simple prompt-response alignment.</li>
+                <li>Evaluated improvements with qualitative output comparison.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Prompt Engineering Experiment</div>
+            <ul>
+                <li>Analyzed the impact of different prompting strategies (zero-shot, few-shot, chain-of-thought) on LLM output quality and consistency.</li>
+                <li>Documented and compared results to identify effective prompt design patterns.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Text Generation using Neural Networks</div>
+            <ul>
+                <li>Built a text generation model using an LSTM/mini-Transformer architecture on movie plots or quotes dataset.</li>
+                <li>Demonstrated basic sequence learning and generative modeling capabilities.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Basic Image Generation with GANs</div>
+            <ul>
+                <li>Implemented a GAN to generate handwritten digits on the MNIST dataset.</li>
+                <li>Monitored training stability and visualized generated outputs across epochs.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Lightweight PDF Question-Answering Bot</div>
+            <ul>
+                <li>Developed a simple system to answer questions from PDF documents using embeddings and a language model.</li>
+                <li>Showcased practical NLP and generative AI usage for document intelligence.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Text Data Preprocessing & Feature Engineering</div>
+            <ul>
+                <li>Cleaned and tokenized raw text datasets for NLP tasks.</li>
+                <li>Performed basic feature extraction and vocabulary analysis to prepare data for ML models.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Radiation Pattern Correction using DNN (FYP)</div>
+            <ul>
+                <li>Designed and trained a Deep Neural Network using TensorFlow to correct radiation pattern failure in antenna arrays.</li>
+                <li>Achieved 85% accuracy in predicting excitation weights; validated model against simulation benchmarks.</li>
+                <li>Implemented reproducible training pipeline with fixed random seeds and parameter tracking.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">LinkedIn Sourcing Agent</div>
+            <ul>
+                <li>Developed a real-time AI agent to analyze, rank, and generate outreach messages for live LinkedIn profiles.</li>
+                <li>Combined FastAPI backend + Streamlit UI for live scoring and data visualization.</li>
+                <li>Supported batch processing (10+ jobs) and CSV/JSON export using Gemini and OpenAI APIs.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Automated Book Generation (LLM + n8n + Supabase)</div>
+            <ul>
+                <li>Created a Generative AI pipeline that produces structured books (title → outline → chapters → summary).</li>
+                <li>Integrated Supabase, LangChain, and GPT-4 with workflow orchestration using n8n.</li>
+                <li>Applied data processing and validation mechanisms for scalable content generation.</li>
+                <li>Stack: Python, GPT-4, LangChain, Supabase, n8n</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <div class="edu-header">
+                <span>Comsats University Islamabad, Abbottabad Campus</span>
+                <span>Graduate-2025</span>
+            </div>
+            <div class="edu-details">Bachelor of Engineering in Computer Engineering</div>
+            <div class="edu-details">CGPA 3.57</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Certifications</div>
+        <ul class="certifications">
+            <li>Computer Vision & AI for Drones – May 2025</li>
+            <li>Data Science Virtual Experience (British Airways) – Apr 2023</li>
+            <li>IELTS – 6.5 Bands Overall – Feb 2025</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Soft Skills</div>
+        <div class="soft-skills">
+            Analytical Thinking • Team Collaboration • Research & Innovation • Problem-Solving • Mentorship • Communication
+        </div>
+    </div>
+</body>
+</html>

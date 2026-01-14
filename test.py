@@ -6,7 +6,7 @@ from google.api_core import exceptions
 # or you can pass it explicitly: api_key="YOUR_KEY_HERE"
 #client = genai.Client()
 
-api_key="AIzaSyA4u4z-LL-bMYu2bHXWxUQC8f24UabwuVE"
+api_key="AIzaSyCIbgRlpwTkqt28NJjzLnN_SzXS0sKn-xA"
 client = genai.Client(api_key=api_key)
 
 def test_all_models():
